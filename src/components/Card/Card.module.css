@@ -1,0 +1,26 @@
+.person-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-card__photo {
+    border-radius: 50%;
+    height: 140px;
+    align-items: center;
+}
+
+.person-card__quote {
+    font-size: 25px;
+    font-weight: bold;
+    /*z-index: 2;*/
+}
+
+.person-card__name {
+    color: var(--color-red);
+    font-weight: bold;
+}
+
+.person-card__occupation {
+    color: var(--color-red);
+}

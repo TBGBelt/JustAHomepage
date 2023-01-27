@@ -1,0 +1,118 @@
+.homepage__outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.homepage__inner-container {
+    background-image: url("../assets/imgs/luchtfoto-lbsp-2020-rgv-18bits-1920x-q80.jpg");
+    background-size: cover;
+    flex-basis: 820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.homepage__main-title {
+    background-color: var(--color-red);
+    color: var(--color-main);
+    padding: 16px 18px;
+    font-size: 20px;
+    margin-right: 350px;
+}
+
+.homepage__sub-title {
+    background-color: var(--color-black);
+    color: var(--color-main);
+    padding: 16px 18px;
+    font-size: 40px;
+    margin-right: 350px;
+}
+
+.homepage__scroll{
+    color: var(--color-main);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 600px;
+
+}
+
+.homepage__cards-container-title,
+.homepage__news-events-title {
+    color: var(--color-red);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.homepage__cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.homepage__cards-component {
+    border: 1px solid var(--color-main);
+    padding: 20px 60px 60px 60px;
+    box-shadow: 0 10px 20px -5px #C0C0C0;
+    border-radius: 0 0 5px 5px;
+    margin: 20px 20px 20px 20px;
+    width: 25%;
+}
+
+.homepage__news-events-outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.homepage__news-events-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.homepage__news-container,
+.homepage__events-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.homepage__events-container {
+    border-left: 1px solid #e62e41;
+}
+
+.homepage__news-container > p,
+.homepage__events-container > p {
+    color: var(--color-red);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.homepage__events-container > p {
+    margin-left: 40px;
+    margin-top: 20px;
+}

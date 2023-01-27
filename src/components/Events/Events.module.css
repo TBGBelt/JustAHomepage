@@ -1,0 +1,29 @@
+.event-item__outer-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.event-item__calender-image {
+    margin-left: 40px;
+}
+
+.event-item__calender-number {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+.event-item__title-date-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.event-item__title {
+    font-size: 25px;
+    font-weight: bold;
+}

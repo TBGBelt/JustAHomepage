@@ -1,0 +1,14 @@
+.dropdown__menuItems {
+    list-style-type: none;
+}
+
+.dropdown__menuLink {
+    text-decoration: none;
+    color: var(--color-black);
+    /*text-transform: ;*/
+}
+
+.menuItem__main {
+    padding-left: 10px;
+    margin-right: 20px;
+}
